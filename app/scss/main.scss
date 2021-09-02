@@ -1,0 +1,33 @@
+@import "globals";
+@import "variables";
+@import "responsive";
+.app {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://previews.123rf.com/images/amaomam/amaomam1911/amaomam191100022/134468120-cute-dragon-seamless-background-repeating-pattern-wallpaper-background-cute-seamless-pattern-backgro.jpg');
+    background-repeat: repeat;
+    background-size: 300px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.times {
+    display: flex;
+    font-size: 15rem;
+    margin: 150px auto;
+    color: #628DAA;
+    background-color: rgba(210, 232, 246, 0.4);
+    border-radius: 20px;
+    &__item {
+        padding: 0 8px;
+    }
+}
+
+.title {
+    margin: 30px auto 0;
+    padding: 0 40px;
+    font-size: 1.8rem;
+    background-color: #F7E3E4;
+    color: #F6ABAB;
+    border-radius: 20px;
+}
